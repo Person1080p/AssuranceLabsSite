@@ -1,0 +1,123 @@
+body{
+    background-color: #f2f2f2;
+    color:black;
+    font-family: 'helvetica';
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.navLogo{
+    float: center;
+    background-color: #14305D;
+    padding: 10; 
+    margin: 0;
+}
+    .navLogo a{
+        text-decoration: none;
+        color: #f2f2f2;
+
+    }
+    .navLogo img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 10vh;
+        padding: 0vh;
+        padding-top: 3vh;
+    }
+    .navLogo h1{
+        text-align: center;
+        padding: 1vh;
+        padding-bottom: 3vh;
+    }
+
+
+
+
+
+.navBar {
+    background-color: #192F91;
+    overflow: hidden;
+    justify-items: center;
+    text-align:center;
+    padding: 0; 
+    margin: 0;
+    padding-top: 2vh;
+    
+    /* height: 10vh; */
+    }
+    .navBar a {
+        /* float: left; */
+        display:inline-block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        /* padding: 1vh 1vw; */
+        text-decoration: none;
+        font-size: 100%;
+        height: 4vh;
+        /* width: 5vh; */
+
+    }
+    .navBar a:hover {
+      background-color: #6175CE;
+      color: black;
+    }
+    /* .navBar a.home {
+        background-color: #04AA6D;
+        color: white;
+        height: 10vh;
+    } */
+
+
+
+
+article{
+    margin: 20%;
+    padding: 5%;
+}
+
+
+
+.artText{
+    margin: 5vh;
+    overflow:hidden;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* height: 200px; */
+    border: 3px solid green;
+}
+
+.artText h1{
+    color: rgb(47, 48, 52);
+}
+.artText p{
+    color: rgb(74, 75, 78);
+}
+.artItem{
+    vertical-align: middle;
+    border: 3px solid orange;
+    overflow: hidden;
+    
+}
+.imgL {
+    display: block;
+    justify-content: center;
+    float: left;
+    margin: 2vh;
+    width: fit-content;
+}.imgR {
+    display: block;
+    justify-content: center;
+    float: right;
+    margin: 2vh;
+    width: fit-content;
+}
+
+.emptyPad{
+    height: 1vh;
+    width: 100vw;
+}
