@@ -1,5 +1,8 @@
+html {
+    scroll-behavior: smooth;
+  }
 body{
-    background-color: #f2f2f2;
+    background-color: #f6f6f6;
     color:black;
     font-family: 'helvetica';
     margin: 0;
@@ -17,6 +20,7 @@ body{
     .navLogo a{
         text-decoration: none;
         color: #f2f2f2;
+        font-weight: bold;
 
     }
     .navLogo img{
@@ -83,12 +87,6 @@ article{
 
 .artText{
     margin: 5vh;
-    overflow:hidden;
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* height: 200px; */
-    border: 3px solid green;
 }
 
 .artText h1{
@@ -99,19 +97,17 @@ article{
 }
 .artItem{
     vertical-align: middle;
-    border: 3px solid orange;
+    /* border: 3px solid orange; */
     overflow: hidden;
     
 }
 .imgL {
     display: block;
-    justify-content: center;
     float: left;
     margin: 2vh;
     width: fit-content;
 }.imgR {
     display: block;
-    justify-content: center;
     float: right;
     margin: 2vh;
     width: fit-content;
