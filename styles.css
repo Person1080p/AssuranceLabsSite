@@ -21,6 +21,7 @@ body{
         text-decoration: none;
         color: #f2f2f2;
         font-weight: bold;
+        font-size: 2.7vh;
 
     }
     .navLogo img{
@@ -94,6 +95,7 @@ article{
 }
 .artText p{
     color: rgb(74, 75, 78);
+    font-size: 2.3vh;
 }
 .artItem{
     vertical-align: middle;
