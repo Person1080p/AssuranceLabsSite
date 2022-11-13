@@ -29,6 +29,7 @@ body{
         margin-left: auto;
         margin-right: auto;
         height: 10vh;
+
         padding: 0vh;
         padding-top: 3vh;
     }
@@ -66,6 +67,10 @@ body{
         /* width: 5vh; */
 
     }
+    .navBar a{
+        font-weight: bold;
+        font-size: 115%;
+    }
     .navBar a:hover {
       background-color: #6175CE;
       color: black;
@@ -92,10 +97,11 @@ article{
 
 .artText h1{
     color: rgb(47, 48, 52);
+    font-size: 200%;
 }
 .artText p{
     color: rgb(74, 75, 78);
-    font-size: 2.3vh;
+    font-size: 140%;
 }
 .artItem{
     vertical-align: middle;
@@ -103,7 +109,14 @@ article{
     overflow: hidden;
     
 }
+
+.artItem img{
+    width: 1000px;
+    /* height: 50; */
+}
+
 .imgL {
+
     display: block;
     float: left;
     margin: 2vh;
