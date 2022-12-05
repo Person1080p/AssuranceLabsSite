@@ -96,6 +96,7 @@ article{
 
 .artText{
     margin: 5vh;
+    font: left;
 }
 
 .artText h1{
@@ -110,12 +111,16 @@ article{
     vertical-align: middle;
     /* border: 3px solid orange; */
     overflow: hidden;
+    /* width: 50vw; */
     
 }
 
 .artItem img{
     width: 1000px;
     /* height: 50; */
+}
+.artItem ul{
+    margin: 10px;
 }
 
 .imgL {
