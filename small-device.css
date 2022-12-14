@@ -7,7 +7,6 @@ body{
     font-family: 'helvetica';
     margin: 0;
     padding: 0;
-    /* overflow-x: hidden; */
 
 }
 .filler{
@@ -18,14 +17,14 @@ body{
 .navLogo{
     float: center;
     background-color: #14305D;
-    padding: 0px; 
-    margin: 0px;
+    padding: 10; 
+    margin: 0;
 }
     .navLogo a{
         text-decoration: none;
         color: #f2f2f2;
         font-weight: bold;
-        font-size: 175%;
+        font-size: 2.7vh;
 
     }
     .navLogo img{
@@ -41,7 +40,6 @@ body{
         text-align: center;
         padding: 1vh;
         padding-bottom: 3vh;
-        margin:0px;
     }
 
 
@@ -90,65 +88,42 @@ body{
 
 
 article{
-    /* margin: 20%; */
-    margin:0px;
-    padding:0px;
-    /* padding: 5%; */
+    margin: 20%;
+    padding: 5%;
 }
 
-.artTextCent{
-    flex:1;
-    align-items: center;
-}
+
 
 .artText{
-    /* display: flex; */
-    /* margin: 5vh; */
+    margin: 5vh;
     font: left;
-    text-align:left;
-    /* width: 10vw; */
-    margin:1vw;
-    /* text-align: left; */
-    /* justify-content: center; */
 }
 
 .artText h1{
     color: rgb(47, 48, 52);
     font-size: 200%;
-    margin: 0;
 }
 .artText p{
-    text-align: left;
     color: rgb(74, 75, 78);
     font-size: 140%;
-    margin: 0.003%;
-    
-}
-.pad{
-    padding: 10px;
 }
 .artItem{
-    /* vertical-align: middle; */
+    vertical-align: middle;
     /* border: 3px solid orange; */
     overflow: hidden;
-    display: flex;
     /* width: 50vw; */
     
 }
 
-    .artItem img{
-        /* width: 1000px; */
-        width: 50vw;
-        /* height: 50; */
-    }
-    .artItem ul{
-        margin: 5px;
-    }
-.artIMG {
-    flex:1;
-    vertical-align: middle;
+.artItem img{
+    width: 1000px;
+    /* height: 50; */
 }
-/* .imgL {
+.artItem ul{
+    margin: 10px;
+}
+
+.imgL {
 
     display: block;
     float: left;
@@ -159,7 +134,7 @@ article{
     float: right;
     margin: 2vh;
     width: fit-content;
-} */
+}
 
 .emptyPad{
     height: 1vh;
