@@ -146,7 +146,7 @@ article{
     }
 .artIMG {
     flex:1;
-    vertical-align: middle;
+    /* vertical-align: middle; */
 }
 /* .imgL {
 
